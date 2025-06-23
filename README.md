@@ -64,3 +64,12 @@ Propose a model or approach in which the retailer can explicitly define the foll
 * **Maximum acceptable lost sales** (missed revenue opportunities).
 * **Maximum acceptable locked capital in inventory**, assuming a 30% markup over the product’s purchase cost.
 
+## Other important notes from Task description PDF
+
+Company plans to restock its inventory every other week and only keep in stock the items that it has actually sold during that period.
+
+Products that are promoted during the simulation period will be earmarked (personal note: that is why the dates in the infos table with the promotions are all in the period which we are simulating).
+
+The model does not need to be able to respond to price changes during the simulation period.
+
+The info file (“infos.csv”) is for the simulation period.
