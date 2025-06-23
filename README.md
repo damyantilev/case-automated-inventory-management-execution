@@ -64,6 +64,7 @@ Propose a model or approach in which the retailer can explicitly define the foll
 * **Maximum acceptable lost sales** (missed revenue opportunities).
 * **Maximum acceptable locked capital in inventory**, assuming a 30% markup over the product’s purchase cost.
 
+<<<<<<< HEAD
 ## Exploratory data analysis
 
 1. We don't have information on which transactions have happened under promotion.
@@ -95,3 +96,4 @@ Propose a model or approach in which the retailer can explicitly define the foll
 2. FFT
 
 
+=======
