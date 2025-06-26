@@ -64,11 +64,6 @@ Propose a model or approach in which the retailer can explicitly define the foll
 * **Maximum acceptable lost sales** (missed revenue opportunities).
 * **Maximum acceptable locked capital in inventory**, assuming a 30% markup over the product’s purchase cost.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0aa4372 (Resolve merge conflicts)
 ## Exploratory data analysis
 
 1. We don't have information on which transactions have happened under promotion.
@@ -100,9 +95,6 @@ Propose a model or approach in which the retailer can explicitly define the foll
 2. FFT
 
 
-<<<<<<< HEAD
-=======
-=======
 Company plans to restock its inventory every other week and only keep in stock the items that it has actually sold during that period.
 
 Products that are promoted during the simulation period will be earmarked (personal note: that is why the dates in the infos table with the promotions are all in the period which we are simulating).
@@ -110,5 +102,3 @@ Products that are promoted during the simulation period will be earmarked (perso
 The model does not need to be able to respond to price changes during the simulation period.
 
 The info file (“infos.csv”) is for the simulation period.
->>>>>> Krisi
->>>>>>> 0aa4372 (Resolve merge conflicts)

@@ -1,4 +1,3 @@
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -195,8 +194,3 @@ cython_debug/
 .cursorindexingignore
 
 orders.csv
-<<<<<<< HEAD
->>>>>>> 6ca4274 (adding my intial code)
-=======
->>>>>>> Krisi
->>>>>>> 0aa4372 (Resolve merge conflicts)
