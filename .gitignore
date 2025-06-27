@@ -195,4 +195,8 @@ cython_debug/
 .cursorindexingignore
 
 orders.csv
+<<<<<<< HEAD
 >>>>>>> 6ca4274 (adding my intial code)
+=======
+>>>>>>> Krisi
+>>>>>>> 0aa4372 (Resolve merge conflicts)
