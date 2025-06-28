@@ -64,3 +64,43 @@ Propose a model or approach in which the retailer can explicitly define the foll
 * **Maximum acceptable lost sales** (missed revenue opportunities).
 * **Maximum acceptable locked capital in inventory**, assuming a 30% markup over the product’s purchase cost.
 
+## Exploratory data analysis
+
+1. We don't have information on which transactions have happened under promotion.
+ - We identify a promotional transaction by comparing the price of the product in a transaction with the maximum price of this product for all transactions prior to the current one.
+ - If the price of the product in a transaction is less than the cummulative maximum we consider it to be a transaction in a promotion.
+
+2. There are products that sell for multiple prices in a day.
+ - When we aggregate the data we calculate the weighted averge price (WAP) using the order quantity sold, i.e. WAP = mean(salePrice / order)
+
+3. Zero prices
+ - There are transactions that have happened at 0 salePrice. We remove these from the dataset as they represent ~0.02 (TODO: Factcheck it)
+
+4. Sparse data on number of days a product was sold in
+ - Most of the products are sold in very small number of days.
+ - Kalman filtering - filter values that are with low frequency
+
+## Feature engineering
+
+1. Discount
+2. Datetime
+3. Customer rating
+4. Lagging
+5. Rolling window
+6. Filtering
+ - Kalman
+
+## Modeling
+1. SARIMAX
+2. FFT
+
+## Other important notes from Task description PDF
+
+Company plans to restock its inventory every other week and only keep in stock the items that it has actually sold during that period.
+
+Products that are promoted during the simulation period will be earmarked (personal note: that is why the dates in the infos table with the promotions are all in the period which we are simulating).
+
+The model does not need to be able to respond to price changes during the simulation period.
+
+The info file (“infos.csv”) is for the simulation period.
+
