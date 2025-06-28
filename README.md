@@ -94,6 +94,7 @@ Propose a model or approach in which the retailer can explicitly define the foll
 1. SARIMAX
 2. FFT
 
+## Other important notes from Task description PDF
 
 Company plans to restock its inventory every other week and only keep in stock the items that it has actually sold during that period.
 
@@ -102,3 +103,4 @@ Products that are promoted during the simulation period will be earmarked (perso
 The model does not need to be able to respond to price changes during the simulation period.
 
 The info file (“infos.csv”) is for the simulation period.
+
